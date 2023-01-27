@@ -1,43 +1,43 @@
 {
-    "name": "laravel-enso/data-import",
+    "name": "cgdsoftware/data-import",
     "description": "Excel Importer dependency for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "data-import",
         "data-import",
         "excel-import",
         "excel-importer"
     ],
-    "homepage": "https://github.com/laravel-enso/data-import",
+    "homepage": "https://github.com/cgdsoftware/data-import",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Mihai Ocneanu",
             "email": "mihai.ocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "require": {
         "box/spout": "^3.0",
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/dynamic-methods": "^2.0",
-        "laravel-enso/enums": "^2.0",
-        "laravel-enso/excel": "^3.0",
-        "laravel-enso/files": "^5.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/io": "^2.0",
-        "laravel-enso/migrator": "^2.0",
-        "laravel-enso/track-who": "^2.0",
-        "laravel-enso/tables": "^4.0",
-        "laravel-enso/select": "^4.0"
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/dynamic-methods": "^2.0",
+        "cgdsoftware/enums": "^2.0",
+        "cgdsoftware/excel": "^3.0",
+        "cgdsoftware/files": "^5.0",
+        "cgdsoftware/helpers": "^2.0",
+        "cgdsoftware/io": "^2.0",
+        "cgdsoftware/migrator": "^2.0",
+        "cgdsoftware/track-who": "^2.0",
+        "cgdsoftware/tables": "^4.0",
+        "cgdsoftware/select": "^4.0"
     },
     "autoload": {
         "psr-4": {
