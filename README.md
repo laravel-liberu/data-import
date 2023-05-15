@@ -6,7 +6,7 @@
 [![Total Downloads](https://poser.pugx.org/laravel-enso/data-import/downloads)](https://packagist.org/packages/laravel-enso/data-import)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/data-import/version)](https://packagist.org/packages/laravel-enso/data-import)
 
-Incredibly powerful, efficient, unlimited number of rows, queues based Excel importer dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Incredibly powerful, efficient, unlimited number of rows, queues based Excel importer dependency for [Laravel Liberu](https://github.com/laravel-enso/Liberu).
 
 [![Watch the demo](https://laravel-enso.github.io/dataimport/screenshots/bulma_006_thumb.png)](https://laravel-enso.github.io/data-import/videos/bulma_demo_01.mp4)
 

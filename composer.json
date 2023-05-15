@@ -1,43 +1,43 @@
 {
-    "name": "cgdsoftware/data-import",
+    "name": "laravel-liberu/data-import",
     "description": "Excel Importer dependency for Laravel Enso",
     "keywords": [
-        "cgdsoftware",
+        "laravel-liberu",
         "data-import",
         "data-import",
         "excel-import",
         "excel-importer"
     ],
-    "homepage": "https://github.com/cgdsoftware/data-import",
+    "homepage": "https://github.com/laravel-liberu/data-import",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://cgdsoftware.com",
+            "homepage": "https://laravel-liberu.com",
             "role": "Developer"
         },
         {
             "name": "Mihai Ocneanu",
             "email": "mihai.ocneanu@gmail.com",
-            "homepage": "https://cgdsoftware.com",
+            "homepage": "https://laravel-liberu.com",
             "role": "Developer"
         }
     ],
     "require": {
         "box/spout": "^3.0",
-        "cgdsoftware/core": "^8.0",
-        "cgdsoftware/dynamic-methods": "^2.0",
-        "cgdsoftware/enums": "^2.0",
-        "cgdsoftware/excel": "^3.0",
-        "cgdsoftware/files": "^5.0",
-        "cgdsoftware/helpers": "^2.0",
-        "cgdsoftware/io": "^2.0",
-        "cgdsoftware/migrator": "^2.0",
-        "cgdsoftware/track-who": "^2.0",
-        "cgdsoftware/tables": "^4.0",
-        "cgdsoftware/select": "^4.0"
+        "laravel-liberu/core": "^8.0",
+        "laravel-liberu/dynamic-methods": "^2.0",
+        "laravel-liberu/enums": "^2.0",
+        "laravel-liberu/excel": "^3.0",
+        "laravel-liberu/files": "^5.0",
+        "laravel-liberu/helpers": "^2.0",
+        "laravel-liberu/io": "^2.0",
+        "laravel-liberu/migrator": "^2.0",
+        "laravel-liberu/track-who": "^2.0",
+        "laravel-liberu/tables": "^4.0",
+        "laravel-liberu/select": "^4.0"
     },
     "autoload": {
         "psr-4": {
