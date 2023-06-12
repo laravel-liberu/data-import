@@ -53,5 +53,8 @@
             ],
             "aliases": {}
         }
+    },
+    "require-dev": {
+        "rector/rector": "^0.17.0"
     }
 }
