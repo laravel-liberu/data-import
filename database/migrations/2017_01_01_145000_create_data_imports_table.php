@@ -9,7 +9,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('data_imports', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
 
             $table->unsignedBigInteger('file_id')->nullable()->unique();
             $table->foreign('file_id')->references('id')->on('files')
@@ -28,8 +28,7 @@ return new class extends Migration
 
             $table->tinyInteger('status');
 
-            $table->integer('created_by')->unsigned()->nullable();
-            $table->foreign('created_by')->references('id')->on('users');
+            $table->foreignId('created_by')->nullable()->constrained('users')->index()->name('data_imports_created_by_foreign');
 
             $table->timestamps();
         });

@@ -9,9 +9,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('import_chunks', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
 
-            $table->integer('import_id')->unsigned();
+            $table->unsignedBigInteger('import_id');
             $table->foreign('import_id')->references('id')->on('data_imports')
                 ->onDelete('cascade');
 
