@@ -55,7 +55,7 @@
             "label": "Type",
             "name": "type",
             "data": "data_imports.type",
-            "enum": "LaravelEnso\\DataImport\\Enums\\Types",
+            "enum": "LaravelLiberu\\DataImport\\Enums\\Types",
             "meta": [
                 "sortable",
                 "slot"
@@ -73,7 +73,7 @@
             "label": "Status",
             "name": "status",
             "data": "data_imports.status",
-            "enum": "LaravelEnso\\DataImport\\Enums\\Statuses",
+            "enum": "LaravelLiberu\\DataImport\\Enums\\Statuses",
             "meta": [
                 "sortable",
                 "slot"
@@ -131,7 +131,7 @@
             "label": "By",
             "name": "createdBy",
             "data": "data_imports.createdBy",
-            "resource": "LaravelEnso\\Users\\Http\\Resources\\User",
+            "resource": "LaravelLiberu\\Users\\Http\\Resources\\User",
             "meta": [
                 "slot",
                 "notExportable"

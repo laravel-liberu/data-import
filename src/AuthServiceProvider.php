@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\DataImport;
+namespace LaravelLiberu\DataImport;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\DataImport\Policies\Policy;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\DataImport\Policies\Policy;
 
 class AuthServiceProvider extends ServiceProvider
 {

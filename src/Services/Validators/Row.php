@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services\Validators;
+namespace LaravelLiberu\DataImport\Services\Validators;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Validator;
-use LaravelEnso\DataImport\Models\Chunk;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\DataImport\Models\Chunk;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Row
 {

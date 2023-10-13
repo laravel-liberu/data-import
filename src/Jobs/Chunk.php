@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Jobs;
+namespace LaravelLiberu\DataImport\Jobs;
 
 use Illuminate\Bus\Batchable;
 use Illuminate\Bus\Queueable;
@@ -8,8 +8,8 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use LaravelEnso\DataImport\Models\Chunk as Model;
-use LaravelEnso\DataImport\Services\Importers\Chunk as Service;
+use LaravelLiberu\DataImport\Models\Chunk as Model;
+use LaravelLiberu\DataImport\Services\Importers\Chunk as Service;
 
 class Chunk implements ShouldQueue
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\DataImport\Http\Requests;
+namespace LaravelLiberu\DataImport\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use LaravelEnso\DataImport\Enums\Types;
+use LaravelLiberu\DataImport\Enums\Types;
 
 class ValidateTemplate extends FormRequest
 {

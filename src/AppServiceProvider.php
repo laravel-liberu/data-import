@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\DataImport;
+namespace LaravelLiberu\DataImport;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\DataImport\Commands\Purge;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\IO\Observers\IOObserver;
+use LaravelLiberu\DataImport\Commands\Purge;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\IO\Observers\IOObserver;
 
 class AppServiceProvider extends ServiceProvider
 {

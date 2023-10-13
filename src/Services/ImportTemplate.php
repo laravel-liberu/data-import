@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services;
+namespace LaravelLiberu\DataImport\Services;
 
-use LaravelEnso\Excel\Contracts\ExportsExcel;
+use LaravelLiberu\Excel\Contracts\ExportsExcel;
 
 class ImportTemplate implements ExportsExcel
 {

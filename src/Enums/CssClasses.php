@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Enums;
+namespace LaravelLiberu\DataImport\Enums;
 
 class CssClasses extends Statuses
 {

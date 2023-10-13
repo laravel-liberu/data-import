@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services\Validators;
+namespace LaravelLiberu\DataImport\Services\Validators;
 
 use Illuminate\Support\Facades\Route as Routes;
 use Illuminate\Support\Str;
-use LaravelEnso\DataImport\Attributes\Params as Attributes;
-use LaravelEnso\DataImport\Exceptions\Attributes as Exception;
-use LaravelEnso\DataImport\Exceptions\Route;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\DataImport\Attributes\Params as Attributes;
+use LaravelLiberu\DataImport\Exceptions\Attributes as Exception;
+use LaravelLiberu\DataImport\Exceptions\Route;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Params
 {

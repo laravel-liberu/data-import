@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\DataImport\Upgrades;
+namespace LaravelLiberu\DataImport\Upgrades;
 
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Upgrade\Contracts\BeforeMigration;
-use LaravelEnso\Upgrade\Contracts\MigratesData;
-use LaravelEnso\Upgrade\Helpers\Table;
+use LaravelLiberu\Upgrade\Contracts\BeforeMigration;
+use LaravelLiberu\Upgrade\Contracts\MigratesData;
+use LaravelLiberu\Upgrade\Helpers\Table;
 
 class RejectedFileCreatedBy implements MigratesData, BeforeMigration
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\DataImport\Tests;
+namespace LaravelLiberu\DataImport\Tests;
 
-use LaravelEnso\DataImport\Contracts\Importable;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\UserGroups\Models\UserGroup;
+use LaravelLiberu\DataImport\Contracts\Importable;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\UserGroups\Models\UserGroup;
 
 class UserGroupImporter implements Importable
 {

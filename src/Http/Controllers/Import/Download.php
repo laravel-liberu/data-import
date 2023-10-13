@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\DataImport\Http\Controllers\Import;
+namespace LaravelLiberu\DataImport\Http\Controllers\Import;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\DataImport\Models\Import;
+use LaravelLiberu\DataImport\Models\Import;
 
 class Download extends Controller
 {

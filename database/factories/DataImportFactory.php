@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\DataImport\Database\Factories;
+namespace LaravelLiberu\DataImport\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\DataImport\Enums\Statuses;
-use LaravelEnso\DataImport\Models\DataImport;
+use LaravelLiberu\DataImport\Enums\Statuses;
+use LaravelLiberu\DataImport\Models\DataImport;
 
 class DataImportFactory extends Factory
 {

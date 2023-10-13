@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\DataImport\Enums;
+namespace LaravelLiberu\DataImport\Enums;
 
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\DataImport\Exceptions\Import;
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\DataImport\Exceptions\Import;
+use LaravelLiberu\Enums\Services\Enum;
 use Throwable;
 
 class Types extends Enum

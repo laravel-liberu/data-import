@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\DataImport\Upgrades;
+namespace LaravelLiberu\DataImport\Upgrades;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Upgrade\Contracts\MigratesTable;
-use LaravelEnso\Upgrade\Contracts\Prioritization;
-use LaravelEnso\Upgrade\Helpers\Table;
+use LaravelLiberu\Upgrade\Contracts\MigratesTable;
+use LaravelLiberu\Upgrade\Contracts\Prioritization;
+use LaravelLiberu\Upgrade\Helpers\Table;
 
 class RejectedDataImportForeignKey implements MigratesTable, Prioritization
 {

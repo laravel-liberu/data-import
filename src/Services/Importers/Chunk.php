@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services\Importers;
+namespace LaravelLiberu\DataImport\Services\Importers;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
@@ -8,15 +8,15 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
-use LaravelEnso\DataImport\Contracts\Authenticates;
-use LaravelEnso\DataImport\Contracts\Authorizes;
-use LaravelEnso\DataImport\Contracts\Importable;
-use LaravelEnso\DataImport\Exceptions\Import as Exception;
-use LaravelEnso\DataImport\Models\Chunk as Model;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\DataImport\Models\RejectedChunk;
-use LaravelEnso\DataImport\Services\Validators\Row;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\DataImport\Contracts\Authenticates;
+use LaravelLiberu\DataImport\Contracts\Authorizes;
+use LaravelLiberu\DataImport\Contracts\Importable;
+use LaravelLiberu\DataImport\Exceptions\Import as Exception;
+use LaravelLiberu\DataImport\Models\Chunk as Model;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\DataImport\Models\RejectedChunk;
+use LaravelLiberu\DataImport\Services\Validators\Row;
+use LaravelLiberu\Helpers\Services\Obj;
 use Symfony\Component\Console\Output\ConsoleOutput;
 use Throwable;
 

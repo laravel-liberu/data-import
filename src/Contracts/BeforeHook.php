@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\DataImport\Contracts;
+namespace LaravelLiberu\DataImport\Contracts;
 
-use LaravelEnso\DataImport\Models\Import;
+use LaravelLiberu\DataImport\Models\Import;
 
 interface BeforeHook
 {

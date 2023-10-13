@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services;
+namespace LaravelLiberu\DataImport\Services;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\Files\Models\Type;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\Files\Models\Type;
 
 abstract class ExcelSeeder extends Seeder
 {

@@ -18,7 +18,7 @@ Incredibly powerful, efficient, unlimited number of rows, queues based Excel imp
 
 ### Installation, Configuration & Usage
 
-Be sure to check out the full documentation for this package available at [docs.laravel-enso.com](https://docs.laravel-enso.com/backend/data-import.html)
+Be sure to check out the full documentation for this package available at [docs.liberu.co.uk](https://docs.liberu.co.uk/backend/data-import.html)
 
 ### Contributions
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\DataImport\Attributes;
+namespace LaravelLiberu\DataImport\Attributes;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\DataImport\Exceptions\Attributes as Exception;
+use LaravelLiberu\DataImport\Exceptions\Attributes as Exception;
 use ReflectionClass;
 
 class Attributes

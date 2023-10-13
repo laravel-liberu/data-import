@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services\Exporters;
+namespace LaravelLiberu\DataImport\Services\Exporters;
 
 use Box\Spout\Common\Entity\Row;
 use Box\Spout\Writer\Common\Creator\Style\StyleBuilder;
@@ -10,12 +10,12 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use LaravelEnso\DataImport\Enums\Statuses;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\DataImport\Models\RejectedChunk;
-use LaravelEnso\DataImport\Models\RejectedImport;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Files\Models\Type;
+use LaravelLiberu\DataImport\Enums\Statuses;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\DataImport\Models\RejectedChunk;
+use LaravelLiberu\DataImport\Models\RejectedImport;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Files\Models\Type;
 
 class Rejected
 {

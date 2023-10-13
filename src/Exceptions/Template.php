@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\DataImport\Exceptions;
+namespace LaravelLiberu\DataImport\Exceptions;
 
-use LaravelEnso\DataImport\Contracts\Importable;
-use LaravelEnso\DataImport\Services\Validators\Validator;
-use LaravelEnso\Helpers\Exceptions\EnsoException;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\DataImport\Contracts\Importable;
+use LaravelLiberu\DataImport\Services\Validators\Validator;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Template extends EnsoException
 {

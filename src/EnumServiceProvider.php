@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\DataImport;
+namespace LaravelLiberu\DataImport;
 
-use LaravelEnso\DataImport\Enums\CssClasses;
-use LaravelEnso\DataImport\Enums\Statuses;
-use LaravelEnso\DataImport\Enums\Types;
-use LaravelEnso\Enums\EnumServiceProvider as ServiceProvider;
+use LaravelLiberu\DataImport\Enums\CssClasses;
+use LaravelLiberu\DataImport\Enums\Statuses;
+use LaravelLiberu\DataImport\Enums\Types;
+use LaravelLiberu\Enums\EnumServiceProvider as ServiceProvider;
 
 class EnumServiceProvider extends ServiceProvider
 {

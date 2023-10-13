@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\DataImport\Policies;
+namespace LaravelLiberu\DataImport\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\Users\Models\User;
 
 class Policy
 {

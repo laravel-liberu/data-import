@@ -2,11 +2,11 @@
 
 namespace App\Imports\Importers;
 
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\DataImport\Contracts\Importable;
-use LaravelEnso\DataImport\Contracts\AfterHook; // optional
-use LaravelEnso\DataImport\Contracts\BeforeHook; // optional
-use LaravelEnso\DataImport\Models\Import;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\DataImport\Contracts\Importable;
+use LaravelLiberu\DataImport\Contracts\AfterHook; // optional
+use LaravelLiberu\DataImport\Contracts\BeforeHook; // optional
+use LaravelLiberu\DataImport\Models\Import;
 
 class ExampleImporter implements Importable, BeforeHook, AfterHook
 {

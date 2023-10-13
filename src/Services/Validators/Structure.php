@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services\Validators;
+namespace LaravelLiberu\DataImport\Services\Validators;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\DataImport\Services\Readers\XLSX;
-use LaravelEnso\DataImport\Services\Sanitizers\Sanitize;
-use LaravelEnso\DataImport\Services\Summary;
-use LaravelEnso\DataImport\Services\Template;
+use LaravelLiberu\DataImport\Services\Readers\XLSX;
+use LaravelLiberu\DataImport\Services\Sanitizers\Sanitize;
+use LaravelLiberu\DataImport\Services\Summary;
+use LaravelLiberu\DataImport\Services\Template;
 
 class Structure
 {

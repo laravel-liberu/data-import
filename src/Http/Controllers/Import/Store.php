@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\DataImport\Http\Controllers\Import;
+namespace LaravelLiberu\DataImport\Http\Controllers\Import;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Validator;
-use LaravelEnso\DataImport\Http\Requests\ValidateImport;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\DataImport\Http\Requests\ValidateImport;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Store extends Controller
 {

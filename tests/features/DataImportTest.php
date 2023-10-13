@@ -6,11 +6,11 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use LaravelEnso\DataImport\Enums\Statuses;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\Tables\Traits\Tests\Datatable;
-use LaravelEnso\UserGroups\Models\UserGroup;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\DataImport\Enums\Statuses;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\Tables\Traits\Tests\Datatable;
+use LaravelLiberu\UserGroups\Models\UserGroup;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class DataImportTest extends TestCase

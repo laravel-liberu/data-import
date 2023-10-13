@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\DataImport\Http\Controllers\Import;
+namespace LaravelLiberu\DataImport\Http\Controllers\Import;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\DataImport\Services\Template;
+use LaravelLiberu\DataImport\Services\Template;
 
 class Show extends Controller
 {

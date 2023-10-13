@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services\Readers;
+namespace LaravelLiberu\DataImport\Services\Readers;
 
 use Box\Spout\Reader\Common\Creator\ReaderEntityFactory;
 use Box\Spout\Reader\XLSX\Reader;
@@ -9,8 +9,8 @@ use Box\Spout\Reader\XLSX\Sheet;
 use Box\Spout\Reader\XLSX\SheetIterator;
 use Exception;
 use Illuminate\Support\Collection;
-use LaravelEnso\DataImport\Exceptions\Import;
-use LaravelEnso\DataImport\Services\Sanitizers\Sanitize;
+use LaravelLiberu\DataImport\Exceptions\Import;
+use LaravelLiberu\DataImport\Services\Sanitizers\Sanitize;
 
 class XLSX
 {

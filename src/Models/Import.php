@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Models;
+namespace LaravelLiberu\DataImport\Models;
 
 use Carbon\Carbon;
 use Illuminate\Bus\Batch;
@@ -13,24 +13,24 @@ use Illuminate\Support\Facades\Bus;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use LaravelEnso\DataImport\Enums\Statuses;
-use LaravelEnso\DataImport\Enums\Types;
-use LaravelEnso\DataImport\Exceptions\Import as Exception;
-use LaravelEnso\DataImport\Jobs\Import as Job;
-use LaravelEnso\DataImport\Services\Template;
-use LaravelEnso\DataImport\Services\Validators\Structure;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Contracts\CascadesFileDeletion;
-use LaravelEnso\Files\Contracts\Extensions;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Files\Models\Type;
-use LaravelEnso\Helpers\Casts\Obj;
-use LaravelEnso\Helpers\Traits\AvoidsDeletionConflicts;
-use LaravelEnso\Helpers\Traits\When;
-use LaravelEnso\IO\Contracts\IOOperation;
-use LaravelEnso\IO\Enums\IOTypes;
-use LaravelEnso\Tables\Traits\TableCache;
-use LaravelEnso\TrackWho\Traits\CreatedBy;
+use LaravelLiberu\DataImport\Enums\Statuses;
+use LaravelLiberu\DataImport\Enums\Types;
+use LaravelLiberu\DataImport\Exceptions\Import as Exception;
+use LaravelLiberu\DataImport\Jobs\Import as Job;
+use LaravelLiberu\DataImport\Services\Template;
+use LaravelLiberu\DataImport\Services\Validators\Structure;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Contracts\CascadesFileDeletion;
+use LaravelLiberu\Files\Contracts\Extensions;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Files\Models\Type;
+use LaravelLiberu\Helpers\Casts\Obj;
+use LaravelLiberu\Helpers\Traits\AvoidsDeletionConflicts;
+use LaravelLiberu\Helpers\Traits\When;
+use LaravelLiberu\IO\Contracts\IOOperation;
+use LaravelLiberu\IO\Enums\IOTypes;
+use LaravelLiberu\Tables\Traits\TableCache;
+use LaravelLiberu\TrackWho\Traits\CreatedBy;
 
 class Import extends Model implements
     Attachable,

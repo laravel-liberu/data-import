@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\DataImport\Commands;
+namespace LaravelLiberu\DataImport\Commands;
 
 use Illuminate\Console\Command;
-use LaravelEnso\DataImport\Enums\Statuses;
-use LaravelEnso\DataImport\Models\Import;
+use LaravelLiberu\DataImport\Enums\Statuses;
+use LaravelLiberu\DataImport\Models\Import;
 
 class Purge extends Command
 {

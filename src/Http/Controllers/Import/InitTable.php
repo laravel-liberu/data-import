@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\DataImport\Http\Controllers\Import;
+namespace LaravelLiberu\DataImport\Http\Controllers\Import;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\DataImport\Tables\Builders\Import;
-use LaravelEnso\Tables\Traits\Init;
+use LaravelLiberu\DataImport\Tables\Builders\Import;
+use LaravelLiberu\Tables\Traits\Init;
 
 class InitTable extends Controller
 {

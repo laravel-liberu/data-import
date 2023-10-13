@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services\Validators;
+namespace LaravelLiberu\DataImport\Services\Validators;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\DataImport\Attributes\Column;
-use LaravelEnso\DataImport\Attributes\Sheet;
-use LaravelEnso\DataImport\Attributes\Template as Attributes;
-use LaravelEnso\DataImport\Contracts\Importable;
-use LaravelEnso\DataImport\Exceptions\Template as Exception;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\DataImport\Attributes\Column;
+use LaravelLiberu\DataImport\Attributes\Sheet;
+use LaravelLiberu\DataImport\Attributes\Template as Attributes;
+use LaravelLiberu\DataImport\Contracts\Importable;
+use LaravelLiberu\DataImport\Exceptions\Template as Exception;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Template
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Jobs;
+namespace LaravelLiberu\DataImport\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -8,8 +8,8 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\DataImport\Models\Import as Model;
-use LaravelEnso\DataImport\Services\Importers\Import as Service;
+use LaravelLiberu\DataImport\Models\Import as Model;
+use LaravelLiberu\DataImport\Services\Importers\Import as Service;
 
 class Import implements ShouldQueue
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\DataImport\Models;
+namespace LaravelLiberu\DataImport\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Contracts\CascadesFileDeletion;
-use LaravelEnso\Files\Models\File;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Contracts\CascadesFileDeletion;
+use LaravelLiberu\Files\Models\File;
 
 class RejectedImport extends Model implements Attachable, CascadesFileDeletion
 {

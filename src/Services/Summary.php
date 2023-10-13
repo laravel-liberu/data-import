@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services;
+namespace LaravelLiberu\DataImport\Services;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Summary
 {

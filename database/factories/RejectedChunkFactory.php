@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\DataImport\Database\Factories;
+namespace LaravelLiberu\DataImport\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\DataImport\Models\RejectedChunk;
+use LaravelLiberu\DataImport\Models\RejectedChunk;
 
 class RejectedChunkFactory extends Factory
 {

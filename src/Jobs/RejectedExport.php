@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Jobs;
+namespace LaravelLiberu\DataImport\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -8,9 +8,9 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\DataImport\Services\Exporters\Rejected;
-use LaravelEnso\DataImport\Services\Template;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\DataImport\Services\Exporters\Rejected;
+use LaravelLiberu\DataImport\Services\Template;
 
 class RejectedExport implements ShouldQueue
 {

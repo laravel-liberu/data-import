@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\DataImport\Exceptions;
+namespace LaravelLiberu\DataImport\Exceptions;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
 
 class Attributes extends EnsoException
 {

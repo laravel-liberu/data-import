@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Jobs;
+namespace LaravelLiberu\DataImport\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -8,10 +8,10 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\DataImport\Enums\Statuses;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\DataImport\Notifications\ImportDone;
-use LaravelEnso\DataImport\Services\Notifiables;
+use LaravelLiberu\DataImport\Enums\Statuses;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\DataImport\Notifications\ImportDone;
+use LaravelLiberu\DataImport\Services\Notifiables;
 
 class Finalize implements ShouldQueue
 {

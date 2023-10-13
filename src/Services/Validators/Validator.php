@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services\Validators;
+namespace LaravelLiberu\DataImport\Services\Validators;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\Helpers\Services\Obj;
 
 abstract class Validator
 {

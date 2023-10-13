@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\DataImport\Http\Controllers\Import;
+namespace LaravelLiberu\DataImport\Http\Controllers\Import;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\DataImport\Models\RejectedImport;
+use LaravelLiberu\DataImport\Models\RejectedImport;
 
 class Rejected extends Controller
 {

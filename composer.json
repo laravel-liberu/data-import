@@ -41,15 +41,15 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\DataImport\\": "src/",
-            "LaravelEnso\\DataImport\\Database\\Factories\\": "database/factories/"
+            "LaravelLiberu\\DataImport\\": "src/",
+            "LaravelLiberu\\DataImport\\Database\\Factories\\": "database/factories/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\DataImport\\AppServiceProvider",
-                "LaravelEnso\\DataImport\\EnumServiceProvider"
+                "LaravelLiberu\\DataImport\\AppServiceProvider",
+                "LaravelLiberu\\DataImport\\EnumServiceProvider"
             ],
             "aliases": {}
         }

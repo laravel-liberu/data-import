@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\DataImport\Database\Factories;
+namespace LaravelLiberu\DataImport\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\DataImport\Models\Chunk;
+use LaravelLiberu\DataImport\Models\Chunk;
 
 class ChunkFactory extends Factory
 {

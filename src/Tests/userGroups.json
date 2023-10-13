@@ -2,7 +2,7 @@
     "timeout": 500,
     "sheets": [{
         "name": "groups",
-        "importerClass": "LaravelEnso\\DataImport\\Tests\\UserGroupImporter",
+        "importerClass": "LaravelLiberu\\DataImport\\Tests\\UserGroupImporter",
         "chunkSize": 1000,
         "columns": [
             {

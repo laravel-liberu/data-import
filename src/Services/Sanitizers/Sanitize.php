@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services\Sanitizers;
+namespace LaravelLiberu\DataImport\Services\Sanitizers;
 
 use Box\Spout\Common\Entity\Cell;
 use Box\Spout\Common\Entity\Row;

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Attributes;
+namespace LaravelLiberu\DataImport\Attributes;
 
 class Template extends Attributes
 {

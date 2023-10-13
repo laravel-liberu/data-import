@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\DataImport\Tables\Builders;
+namespace LaravelLiberu\DataImport\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\DataImport\Enums\Statuses;
-use LaravelEnso\DataImport\Models\Import as Model;
-use LaravelEnso\Tables\Contracts\ConditionalActions;
-use LaravelEnso\Tables\Contracts\Table;
+use LaravelLiberu\DataImport\Enums\Statuses;
+use LaravelLiberu\DataImport\Models\Import as Model;
+use LaravelLiberu\Tables\Contracts\ConditionalActions;
+use LaravelLiberu\Tables\Contracts\Table;
 
 class Import implements Table, ConditionalActions
 {

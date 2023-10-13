@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\DataImport\Exceptions;
+namespace LaravelLiberu\DataImport\Exceptions;
 
-use LaravelEnso\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
 
 class Route extends EnsoException
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\DataImport\Models;
+namespace LaravelLiberu\DataImport\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\DataImport\Contracts\Importable;
-use LaravelEnso\DataImport\Services\Template;
+use LaravelLiberu\DataImport\Contracts\Importable;
+use LaravelLiberu\DataImport\Services\Template;
 
 class Chunk extends Model
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\DataImport\Http\Controllers\Import;
+namespace LaravelLiberu\DataImport\Http\Controllers\Import;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\DataImport\Services\ImportTemplate;
-use LaravelEnso\Excel\Services\ExcelExport;
+use LaravelLiberu\DataImport\Services\ImportTemplate;
+use LaravelLiberu\Excel\Services\ExcelExport;
 
 class Template extends Controller
 {

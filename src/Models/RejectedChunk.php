@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\DataImport\Models;
+namespace LaravelLiberu\DataImport\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

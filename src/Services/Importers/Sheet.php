@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services\Importers;
+namespace LaravelLiberu\DataImport\Services\Importers;
 
 use Illuminate\Bus\Batch;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
-use LaravelEnso\DataImport\Jobs\Chunk as Job;
-use LaravelEnso\DataImport\Models\Chunk;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\DataImport\Services\Readers\XLSX;
-use LaravelEnso\DataImport\Services\Sanitizers\Sanitize;
+use LaravelLiberu\DataImport\Jobs\Chunk as Job;
+use LaravelLiberu\DataImport\Models\Chunk;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\DataImport\Services\Readers\XLSX;
+use LaravelLiberu\DataImport\Services\Sanitizers\Sanitize;
 
 class Sheet
 {

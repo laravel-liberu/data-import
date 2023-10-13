@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\DataImport\Contracts;
+namespace LaravelLiberu\DataImport\Contracts;
 
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\Helpers\Services\Obj;
 
 interface Importable
 {

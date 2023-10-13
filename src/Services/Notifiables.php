@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\DataImport\Services;
+namespace LaravelLiberu\DataImport\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\Users\Models\User;
 
 class Notifiables
 {
