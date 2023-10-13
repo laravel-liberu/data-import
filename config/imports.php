@@ -130,7 +130,7 @@ return [
     'configs' => [
         'userGroups' => [
             'label' => 'User Groups',
-            'template' => 'vendor/laravel-enso/data-import/src/Tests/userGroups.json',
+            'template' => 'vendor/laravel-liberu/data-import/src/Tests/userGroups.json',
         ],
     ],
 

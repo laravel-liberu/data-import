@@ -34,7 +34,7 @@ class Template
     {
         return $this->template->has('timeout')
             ? $this->template->get('timeout')
-            : (int) Config::get('enso.imports.timeout');
+            : (int) Config::get('liberu.imports.timeout');
     }
 
     public function notifies(): bool
@@ -47,7 +47,7 @@ class Template
     {
         return $this->template->has('queue')
             ? $this->template->get('queue')
-            : Config::get('enso.imports.queues.processing');
+            : Config::get('liberu.imports.queues.processing');
     }
 
     public function header(string $sheet): Collection
@@ -88,7 +88,7 @@ class Template
         return $this->chunkSizes[$sheet]
             ??= $this->sheet($sheet)->has('chunkSize')
             ? $this->sheet($sheet)->get('chunkSize')
-            : (int) Config::get('enso.imports.chunkSize');
+            : (int) Config::get('liberu.imports.chunkSize');
     }
 
     public function importer(string $sheet): Importable
@@ -149,14 +149,14 @@ class Template
     private function shouldValidate(): bool
     {
         return in_array(
-            Config::get('enso.imports.validations'),
+            Config::get('liberu.imports.validations'),
             [App::environment(), 'always']
         );
     }
 
     private function template(string $type): Obj
     {
-        $template = Config::get("enso.imports.configs.{$type}.template");
+        $template = Config::get("liberu.imports.configs.{$type}.template");
 
         if (! $template) {
             throw Exception::disabled();

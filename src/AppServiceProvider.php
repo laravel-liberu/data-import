@@ -27,9 +27,9 @@ class AppServiceProvider extends ServiceProvider
 
         $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 
-        $this->mergeConfigFrom(__DIR__.'/../config/imports.php', 'enso.imports');
+        $this->mergeConfigFrom(__DIR__.'/../config/imports.php', 'liberu.imports');
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-enso/data-import');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-liberu/data-import');
 
         return $this;
     }
@@ -37,16 +37,16 @@ class AppServiceProvider extends ServiceProvider
     private function publishAssets(): self
     {
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['data-import-config', 'enso-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['data-import-config', 'liberu-config']);
 
         $this->publishes([
             __DIR__.'/../database/factories' => database_path('factories'),
-        ], ['data-import-factory', 'enso-factories']);
+        ], ['data-import-factory', 'liberu-factories']);
 
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-enso/data-import'),
-        ], ['data-import-mail', 'enso-mail']);
+            __DIR__.'/../resources/views' => resource_path('views/vendor/laravel-liberu/data-import'),
+        ], ['data-import-mail', 'liberu-mail']);
 
         return $this;
     }
@@ -72,6 +72,6 @@ class AppServiceProvider extends ServiceProvider
         $this->commands(Purge::class);
 
         $this->app->booted(fn () => $this->app->make(Schedule::class)
-            ->command('enso:data-import:purge')->daily());
+            ->command('liberu:data-import:purge')->daily());
     }
 }

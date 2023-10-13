@@ -11,7 +11,7 @@ class Notifiables
 {
     public static function get(Import $import): Collection
     {
-        $ids = explode(',', Config::get('enso.imports.notifiableIds'));
+        $ids = explode(',', Config::get('liberu.imports.notifiableIds'));
 
         return User::whereIn('id', $ids)
             ->where('id', '<>', $import->file->createdBy->id)

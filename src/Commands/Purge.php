@@ -8,7 +8,7 @@ use LaravelLiberu\DataImport\Models\Import;
 
 class Purge extends Command
 {
-    protected $signature = 'enso:data-import:purge';
+    protected $signature = 'liberu:data-import:purge';
 
     protected $description = 'Removes old imports';
 

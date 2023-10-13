@@ -19,7 +19,7 @@ class Finalize implements ShouldQueue
 
     public function __construct(private Import $import)
     {
-        $this->queue = Config::get('enso.imports.queues.processing');
+        $this->queue = Config::get('liberu.imports.queues.processing');
     }
 
     public function handle()
@@ -31,7 +31,7 @@ class Finalize implements ShouldQueue
 
     private function notify(): void
     {
-        $queue = Config::get('enso.imports.queues.notifications');
+        $queue = Config::get('liberu.imports.queues.notifications');
         $notification = (new ImportDone($this->import))->onQueue($queue);
 
         $this->import->file->createdBy->notify($notification);

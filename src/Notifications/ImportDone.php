@@ -20,7 +20,7 @@ class ImportDone extends Notification implements ShouldQueue
 
     public function via()
     {
-        return ['mail', ...Config::get('enso.imports.notifications')];
+        return ['mail', ...Config::get('liberu.imports.notifications')];
     }
 
     public function toBroadcast()
@@ -37,7 +37,7 @@ class ImportDone extends Notification implements ShouldQueue
     {
         return (new MailMessage())
             ->subject($this->subject())
-            ->markdown('laravel-enso/data-import::emails.import', [
+            ->markdown('laravel-liberu/data-import::emails.import', [
                 'name' => $notifiable->person->appellative
                     ?? $notifiable->person->name,
                 'import' => $this->import,

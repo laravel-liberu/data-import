@@ -92,7 +92,7 @@ class Chunk
             $this->importer->run($row, $this->import);
         } catch (Throwable $throwable) {
             $row = $row->values()->toArray();
-            $row[] = Config::get('enso.imports.unknownError');
+            $row[] = Config::get('liberu.imports.unknownError');
             $this->rejectedChunk->add($row);
 
             $error = App::isProduction() || App::runningInConsole()

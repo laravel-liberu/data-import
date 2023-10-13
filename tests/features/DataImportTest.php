@@ -34,7 +34,7 @@ class DataImportTest extends TestCase
         $this->seed()
             ->actingAs(User::first());
 
-        Config::set(['enso.imports.configs.userGroups' => [
+        Config::set(['liberu.imports.configs.userGroups' => [
             'label' => 'User Groupss',
             'template' => Str::of(self::Template)->replace(base_path(), ''),
         ]]);
@@ -139,7 +139,7 @@ class DataImportTest extends TestCase
             'type' => self::ImportType,
         ]);
 
-        $folder = Config::get('enso.files.testingFolder');
+        $folder = Config::get('liberu.files.testingFolder');
         $path = "{$folder}/$file";
 
         File::copy(self::Path.$file, Storage::path($path));
@@ -163,6 +163,6 @@ class DataImportTest extends TestCase
         $this->model?->delete();
 
         File::delete(self::Path.self::ImportTestFile);
-        Storage::deleteDirectory(Config::get('enso.files.testingFolder'));
+        Storage::deleteDirectory(Config::get('liberu.files.testingFolder'));
     }
 }

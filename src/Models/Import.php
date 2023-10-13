@@ -70,7 +70,7 @@ class Import extends Model implements
 
     public function scopeExpired(Builder $query): Builder
     {
-        $retainFor = Config::get('enso.imports.retainFor');
+        $retainFor = Config::get('liberu.imports.retainFor');
 
         if ($retainFor === 0) {
             return $query->whereId(0);

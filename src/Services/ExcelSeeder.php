@@ -37,7 +37,7 @@ abstract class ExcelSeeder extends Seeder
 
     private function source(): string
     {
-        $path = Config::get('enso.imports.seederPath');
+        $path = Config::get('liberu.imports.seederPath');
 
         return "{$path}/{$this->filename()}";
     }

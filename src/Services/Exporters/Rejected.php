@@ -87,7 +87,7 @@ class Rejected
     private function addHeader(RejectedChunk $chunk)
     {
         $header = $chunk->header;
-        $header[] = Config::get('enso.imports.errorColumn');
+        $header[] = Config::get('liberu.imports.errorColumn');
         $this->xlsx->addRow($this->row($header));
     }
 

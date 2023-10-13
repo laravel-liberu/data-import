@@ -37,7 +37,7 @@ class ValidationTest extends TestCase
     /** @test */
     public function stops_on_invalid_sheets()
     {
-        config(['enso.imports.configs.userGroups' => [
+        config(['liberu.imports.configs.userGroups' => [
             'label' => 'User Groups',
             'template' => $this->template('userGroups'),
         ]]);
@@ -60,7 +60,7 @@ class ValidationTest extends TestCase
     /** @test */
     public function stops_on_invalid_columns()
     {
-        config(['enso.imports.configs.userGroups' => [
+        config(['liberu.imports.configs.userGroups' => [
             'label' => 'User Groups',
             'template' => $this->template('userGroups'),
         ]]);
@@ -83,7 +83,7 @@ class ValidationTest extends TestCase
     /** @test */
     public function cannot_import_invalid_params()
     {
-        Config::set(['enso.imports.configs.userGroups' => [
+        Config::set(['liberu.imports.configs.userGroups' => [
             'label' => 'User Groups',
             'template' => $this->template('paramsValidation'),
         ]]);

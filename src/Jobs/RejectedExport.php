@@ -20,7 +20,7 @@ class RejectedExport implements ShouldQueue
 
     public function __construct(private Import $import)
     {
-        $this->queue = Config::get('enso.imports.queues.rejected');
+        $this->queue = Config::get('liberu.imports.queues.rejected');
         $this->timeout = (new Template($import->type))->timeout();
     }
 

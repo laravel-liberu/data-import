@@ -11,7 +11,7 @@ class Types extends Enum
 {
     protected static function data(): array
     {
-        $configs = Config::get('enso.imports.configs');
+        $configs = Config::get('liberu.imports.configs');
 
         try {
             return array_combine(

@@ -21,7 +21,7 @@ class Import implements ShouldQueue
         private Model $import,
         private string $sheet
     ) {
-        $this->queue = Config::get('enso.imports.queues.splitting');
+        $this->queue = Config::get('liberu.imports.queues.splitting');
         $this->timeout = $this->import->template()->timeout();
     }
 
