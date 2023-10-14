@@ -3,9 +3,9 @@
 namespace LaravelLiberu\DataImport\Exceptions;
 
 use Illuminate\Support\Collection;
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Attributes extends EnsoException
+class Attributes extends LiberuException
 {
     public static function missing(Collection $attrs, string $class)
     {

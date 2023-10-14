@@ -4,10 +4,10 @@ namespace LaravelLiberu\DataImport\Exceptions;
 
 use LaravelLiberu\DataImport\Contracts\Importable;
 use LaravelLiberu\DataImport\Services\Validators\Validator;
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 use LaravelLiberu\Helpers\Services\Obj;
 
-class Template extends EnsoException
+class Template extends LiberuException
 {
     public static function disabled()
     {

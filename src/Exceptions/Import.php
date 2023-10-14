@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\DataImport\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Import extends EnsoException
+class Import extends LiberuException
 {
     public static function configNotReadable()
     {

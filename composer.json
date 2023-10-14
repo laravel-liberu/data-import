@@ -1,6 +1,6 @@
 {
     "name": "laravel-liberu/data-import",
-    "description": "Excel Importer dependency for Laravel Enso",
+    "description": "Excel Importer dependency for Laravel Liberu",
     "keywords": [
         "laravel-liberu",
         "data-import",
